@@ -2,7 +2,7 @@
   "name": "clicky-game",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://kitkat0202.github.io/clicky-game/",
+  "homepage": "https://kitkat0202.github.io/clicky/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.5.2",
