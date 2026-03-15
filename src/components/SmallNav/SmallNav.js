@@ -4,7 +4,7 @@ import './SmallNav.css';
 class SmallNav extends Component {
   render() {
     return (
-        <div className="left-nav-md hide-on-med-and-up topnavcls">
+        <div className="left-nav-md topnavcls">
             <div className="row">
                 <div className="col s12 center">
                     <h5 className="small-title">Kingdom Hearts Click</h5>

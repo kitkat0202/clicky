@@ -1,6 +1,15 @@
 .topnavcls {
     background-color: #222;
     height: 70px;
+    display: none;
+}
+
+.topnavcls .row {
+    margin-bottom: 0;
+}
+
+.topnavcls .row::after {
+    display: none;
 }
 
 .small-title {
@@ -9,4 +18,17 @@
 
 .score-bored-small {
     margin-top: -7px;
+}
+
+@media (max-width: 992px) {
+    .topnavcls {
+        display: block;
+    }
+    .score-bored-small {
+       margin-bottom: 10px;
+    }
+
+    .score-bored-small p{
+       margin-bottom: 10px;
+    }
 }

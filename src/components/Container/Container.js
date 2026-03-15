@@ -7,7 +7,7 @@ class Contain extends Component {
     render() {
       return (
         <div className="contain">
-            <div className="row">
+            <div className="grid">
                 {this.props.children}
             </div>
         </div>

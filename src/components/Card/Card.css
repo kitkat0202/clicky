@@ -1,7 +1,9 @@
 .card {
     box-shadow: none;
-    height: 190px;
-    width: 190px;
+    aspect-ratio: 1/1;
+    width: 100%;
+    max-height: 190px;
+    max-width: 190px;
     background-color: #333;
     margin: 20px auto;
     border: 1px solid #333;
@@ -32,7 +34,5 @@
 @media (max-width: 425px) {
     .card {
         margin: 5px auto;
-        height: 80px;
-        width: 80px;
     }
 }

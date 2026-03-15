@@ -5,8 +5,24 @@
 	width: 100%;
 }
 
+.grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	
+	gap: 20px;
+}
+
 @media only screen and (max-width : 992px) {
 	.contain {
 		padding: 0 10px;
-  }
+  	}
+	.grid {
+		grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+	}
+}
+
+@media only screen and (max-width : 600px) {
+  	.grid {
+  		grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  	}
 }
